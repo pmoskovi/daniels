@@ -26,6 +26,10 @@ p {
     text-shadow: 2px 2px #444;
 }
 
+.black {
+  color: #ccc;
+}
+
 header {
     position: relative;
     width: 100%;
