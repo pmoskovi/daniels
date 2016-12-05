@@ -23,7 +23,7 @@ p {
 }
 
 .shadow {
-    text-shadow: 2px 2px #444;
+
 }
 
 .gray {
@@ -107,7 +107,7 @@ header .header-content .header-content-inner p {
 
 .intro {
 	color: #fff;
-    background-color: yellowgreen;
+    background-color: #fff8d3;
     padding: 70px 0;
     text-align: center;
 }
@@ -180,7 +180,7 @@ header .header-content .header-content-inner p {
 
 .page-footer .contact {
 	padding: 100px 0;
-	background-color: yellowgreen;
+	background-color: #fcca2f;
 	color: #fff;
 	}
 
@@ -201,7 +201,11 @@ header .header-content .header-content-inner p {
 	}
 
 .text-light {
-    color: rgba(255,255,255,.7);
+    color: rgba(255,255,255);
+}
+
+.gray-text {
+  color: #333;
 }
 
 .navbar-default {
@@ -349,9 +353,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: yellowgreen;
-    color: #fff;
-    background-color: yellowgreen;
+    border: none;
+    color: #333;
+    background-color: #fff8d3;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -363,7 +367,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #111;
+    border: none;
     color: #fff;
     background-color: #333;
 }
@@ -439,4 +443,12 @@ img::-moz-selection {
 
 .bg-primary {
     background-color: yellowgreen;
+}
+
+.yellow-bg {
+  background-color: #fcca2f;
+}
+
+.gray-bg {
+  background-color: #7F7C69;
 }
